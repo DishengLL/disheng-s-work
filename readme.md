@@ -77,7 +77,8 @@ There are reasons you might want to disable gradient tracking:
   
 
 * ### theory
-  [PPT]()
+  [PPT](recourse/BERT%20(v3).pdf)
+  
   Bidirectional Encoder Representations from Transformers--(aka BERT)
 
 
