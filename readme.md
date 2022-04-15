@@ -67,7 +67,7 @@ There are reasons you might want to disable gradient tracking:
 * ### theory
 
 * ### code
-   [**implement**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/Disheng_code/word2vec.ipynb)
+   [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/word2vec.ipynb)
 
 
 
@@ -150,7 +150,7 @@ so **why not use co-occurrence count (word-word matrix)  to represent the meanin
 
 * ### code
 
-  [**implement**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/Disheng_code/GloVe.ipynb)
+  [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/GloVe.ipynb)
 
 
 ## Topic model
