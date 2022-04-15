@@ -100,7 +100,7 @@ There are reasons you might want to disable gradient tracking:
 
    [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/BERT%20Word%20Embeddings.ipynb)
 
-   [reference](https://towardsdatascience.com/nlp-extract-contextualized-word-embeddings-from-bert-keras-tf-67ef29f60a7b)
+   [**reference**](https://towardsdatascience.com/nlp-extract-contextualized-word-embeddings-from-bert-keras-tf-67ef29f60a7b)
 
 
 
