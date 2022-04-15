@@ -73,8 +73,13 @@ There are reasons you might want to disable gradient tracking:
 
 
 ## Bert
+  
+  
 
 * ### theory
+  [PPT]()
+  Bidirectional Encoder Representations from Transformers--(aka BERT)
+
 
 * ### code
    [**implement**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/Disheng_code/BERT%20Word%20Embeddings.ipynb)
