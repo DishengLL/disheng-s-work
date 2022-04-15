@@ -136,37 +136,3 @@ unsupervised method
 2. SVD(Singular value decomposition) 
 
 
-
-# Data Exploration (disease severity)
-
-
-
-### Jupyter Notebok
-
-  1. [**data_ exploration.ipynb**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/data_%20exploration.ipynb):   
-  overall data exploration in all of tables
-
-
-
-  3. [**R3_1971_YE_DEMOGRAPHICS_2021_03_01__Exploration.ipynb**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/R3_1971_YE_DEMOGRAPHICS_2021_03_01__%20Exploration.ipynb):   
-  Data exploration in DEMOGRAPHICS
-
-  4. [**R3_1971_YE_DIAGNOSES_2021_03_01__Diagnoses.ipynb**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/R3_1971_YE_DIAGNOSES_2021_03_01__Diagnoses.ipynb):     
-  Data exploration in DIAGNOSES
-
-  5. [**R3_1971_YE_ENCOUNTER_2021_03_01__ Exploration.ipynb**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/R3_1971_YE_ENCOUNTER_2021_03_01__%20Exploration.ipynb):    
-  Data exploration in ENCOUNTER
-
-  6. [**severity exploration.ipynb**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/severity%20exploration%20.ipynb):   
-  Use Diagnoses table to get all of study_id of Covid patient.
-  Use those Covid patient study id to extract data from Encounter table and do some exploration
-
-  2. [**lab_result---covid.ipynb**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/lab_result---%20covid%20.ipynb):   
-  Use Lab result to extract covid patients, and use those patients' id to extract all of encounter records in Encounter table.
-
-
-
-
-
-
-
