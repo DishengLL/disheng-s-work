@@ -86,7 +86,7 @@ There are reasons you might want to disable gradient tracking:
 
   Bert encoder model uses Attention scheme to catch the relationship among words, which allows model to consider  distant context when processing each token.
 
-  Overall, Bert Embedding uses pre-trained model, fed by sentence, and get parameters in hidden layers as the vector representation for each token.
+  Overall, Bert Embedding uses pre-trained model, fed by sentence, and gets parameters in hidden layers as the vector representation for each token.
 
 
 
