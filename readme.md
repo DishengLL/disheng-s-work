@@ -72,18 +72,35 @@ There are reasons you might want to disable gradient tracking:
 
 
 
-## Bert
-  
+## Bert ---**2018**
   
 
 * ### theory
-  [PPT](recourse/BERT%20(v3).pdf)
-  
+  [Paper](https://arxiv.org/pdf/1810.04805.pdf)    
+  [PPT of Hung-yi Lee](recourse/BERT%20(v3).pdf)
+  [Youtube](https://www.youtube.com/watch?v=UYPa347-DdE)   
+
   Bidirectional Encoder Representations from Transformers--(aka BERT)
+
+  Actually, Bert embedding is an encoder section in  Transformer model published by Google.
+
+  Bert encoder model uses Attention scheme to catch the relationship among words, which allows model to consider  distant context when processing each token.
+
+  Overall, Bert Embedding uses pre-trained model, fed by sentence, and get parameters in hidden layers as the vector representation for each token.
+
+
 
 
 * ### code
-   [**implement**](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/Disheng_code/BERT%20Word%20Embeddings.ipynb)
+  In fact, BERT developers created two main models:
+  The BASE: Number of transformer blocks (L): 12, Hidden layer size (H): 768 and Attention heads(A): 12       
+  The LARGE: Number of transformer blocks (L): 24, Hidden layer size (H): 1024 and Attention heads(A): 16       
+  the following code example use Base Version to extract word embedding.   
+
+
+   [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/BERT%20Word%20Embeddings.ipynb)
+
+   [reference](https://towardsdatascience.com/nlp-extract-contextualized-word-embeddings-from-bert-keras-tf-67ef29f60a7b)
 
 
 
