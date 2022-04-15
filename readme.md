@@ -73,14 +73,14 @@ There are reasons you might want to disable gradient tracking:
 
 
 ## Bert ---**2018**
-  
+  Bidirectional Encoder Representations from Transformers--(aka BERT)    
 
 * ### theory
   [Paper](https://arxiv.org/pdf/1810.04805.pdf)    
   [PPT of Hung-yi Lee](recourse/BERT%20(v3).pdf)
   [Youtube](https://www.youtube.com/watch?v=UYPa347-DdE)   
 
-  Bidirectional Encoder Representations from Transformers--(aka BERT)
+  
 
   Actually, Bert embedding is an encoder section in  Transformer model published by Google.
 
