@@ -165,28 +165,6 @@ unsupervised method
   Use Lab result to extract covid patients, and use those patients' id to extract all of encounter records in Encounter table.
 
 
-### CSV file 
-  (do not release in Github)
-
-  1. covid_record.csv:        
-    extracting from **R3_1971_YE_DIAGNOSES_2021_03_01**, for all of records which get (COV19) `ICD10 = ('U07.1', 'Z11.52', 'Z20.822', 'J12.82')` in **DX_CODE** column.
-
-  2. encounter_covid_lab.csv: 
-    encounter_covid_lab stores all of records of covid patient.     
-    for each patient, the initial record is the one getting LAB Results about COVID.     
-    for this patient, after inital LAB result result, all of other record appearing after this initial will follow.      
-    LAB Results about COVID:      
-    `COMPONENT_ID  == ('20126','202303','20240','20241','20242','20243','20244','20245','20264','20274','20275','20276','20277','20278','20279','20280','20283','20285','20286','20287','20288','20289','20290','20291','20292','20293','20298','20300','20301','20303','20308','20346','20347','20364','20365','20369','20379','20380','20381','20389','20390','20391','20392','20460','20463','20464','20465','20466','20469','20640','20647','20652','20655','20670')`
-
-
-### Report
-  1. [overall exploration](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/report/overall%20exploration.docx):     
-    an overall data exploration in `R3_1971_YE_DEMOGRAPHICS_2021_03_01`,   `R3_1971_YE_ENCOUNTERS_2021_03_01`, `R3_1971_YE_DIAGNOSES_2021_03_01`
-
-  2. [Data exploration about the severity of Covid](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/csv%20analysis/report/Data%20exploration%20about%20the%20severity%20of%20Covid.docx):      
-    From DIAGNOSES table, I extracted all of study_id of Covid patients.
-    Based on those study_id, do some analysis in Encounter table.
-
 
 
 
