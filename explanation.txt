@@ -1,0 +1,13 @@
+there are two branches in this git repository
+
+branch:
+all & public
+
+all branch contains all of files, including some private file invloving disease severity project
+
+public branch contains all of files which can be public----all of learning materials in Yeye's lab, except disease severity files.
+
+
+swith to different branch, can get different files 
+
+git checkout <branchName>
