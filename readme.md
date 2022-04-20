@@ -65,7 +65,8 @@ There are reasons you might want to disable gradient tracking:
    * CBOW (Continuous Bag of Words)      
 
 * ### theory
-  [PPT of Professor He](/recourse/word2vec.pdf)        
+  [PPT of Professor He](/recourse/word2vec.pdf) 
+  [Word2vec Tutorial online](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)    
   Word2vec use contextualized information to generate word embedding for each word.
 
   Intuitively, the meaning of one word is defined by its surrounding context. From this understanding, Word2vec is a supervised method which establishes a neural structure, to do a prediction task.
@@ -84,7 +85,8 @@ There are reasons you might want to disable gradient tracking:
    [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/word2vec.ipynb)
 
 
-(Furthermore, in practice, [negative sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) is a necessary technique to train word2vec embedding in a large corpus.)
+(Furthermore, in practice, [negative sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) is a necessary technique to train word2vec embedding in a large corpus, which is not be included in my implementation.  
+The authors of word2vec published this method in their following [paper](http://arxiv.org/pdf/1310.4546.pdf))
 
 
 
