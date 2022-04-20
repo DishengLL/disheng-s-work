@@ -65,6 +65,7 @@ There are reasons you might want to disable gradient tracking:
    * CBOW (Continuous Bag of Words)      
 
 * ### theory
+  [PPT of Professor He](/recourse/word2vec.pdf)
   Word2vec use contextualized information to generate word embedding for each word.
 
   Intuitively, the meaning of one word is defined by its surrounding context. From this understanding, Word2vec is a supervised method which establishes a neural structure, to do a prediction task.
@@ -105,7 +106,7 @@ There are reasons you might want to disable gradient tracking:
 
 
 * ### code
-  In fact, BERT developers created two main models:
+  BERT developers created two main models:   
   The BASE: Number of transformer blocks (L): 12, Hidden layer size (H): 768 and Attention heads(A): 12       
   The LARGE: Number of transformer blocks (L): 24, Hidden layer size (H): 1024 and Attention heads(A): 16       
   the following code example use Base Version to extract word embedding.   
