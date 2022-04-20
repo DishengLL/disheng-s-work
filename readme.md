@@ -71,7 +71,7 @@ There are reasons you might want to disable gradient tracking:
   Word2vec use contextualized information to generate word embedding for each word.      
   Intuitively, the meaning of one word is defined by its surrounding context. From this understanding, Word2vec is a supervised method, which establishes a neural structure, doing a prediction task.
 
-  * skip-grams: use a central word to predict its context word.    
+  * Skip-grams: use a central word to predict its context word.    
   * CBOW: uses a context word to predict the central word
 
 
@@ -92,12 +92,13 @@ The authors of word2vec published this method in their following [paper](http://
 
 
 ## Bert ---**2018**
-  Bidirectional Encoder Representations from Transformers--(aka BERT)    
+  Bidirectional Encoder Representations from Transformers--(AKA BERT)    
 
 * ### theory
   [Paper](https://arxiv.org/pdf/1810.04805.pdf)    
   [PPT of Hung-yi Lee](recourse/BERT%20(v3).pdf)       
-  [Youtube](https://www.youtube.com/watch?v=UYPa347-DdE)   
+  [Youtube--embedding](https://www.youtube.com/watch?v=UYPa347-DdE)     
+  [Youtube--self attention](https://www.youtube.com/watch?v=ugWDIIOHtPA)
 
   
 
@@ -105,7 +106,10 @@ The authors of word2vec published this method in their following [paper](http://
 
   Bert encoder model uses Attention scheme to catch the relationship among words, which allows model to consider  distant context when processing each token.
 
-  Overall, Bert Embedding uses pre-trained model, fed by sentence, and gets parameters in hidden layers as the vector representation for each token.
+  Overall, Bert Embedding uses pre-trained model, fed by sentence, and generates multiple hidden layers as the vector representations for each token.
+
+
+  (Bert has the same intuition with `ELMo`, which is a **RNN based** embedding method. All of them use contextualized information to generate word embedding in current sentence. Difference between Bert and ELMo is `Bert` use Self-attention scheme, which allows Bert to catch information from the more distant position than `ELMo` does. Furthermore, Self-attention scheme also allows parallel computation, which makes Bert to be more computationally efficient than `ELMo`.)
 
 
 
