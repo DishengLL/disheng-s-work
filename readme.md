@@ -66,10 +66,10 @@ There are reasons you might want to disable gradient tracking:
 
 * ### theory
   [PPT of Professor He](/recourse/word2vec.pdf)      
-  [Word2vec Tutorial online](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)    
-  Word2vec use contextualized information to generate word embedding for each word.
+  [Word2vec Tutorial online](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) 
 
-  Intuitively, the meaning of one word is defined by its surrounding context. From this understanding, Word2vec is a supervised method which establishes a neural structure, to do a prediction task.
+  Word2vec use contextualized information to generate word embedding for each word.
+  Intuitively, the meaning of one word is defined by its surrounding context. From this understanding, Word2vec is a supervised method, which establishes a neural structure, doing a prediction task.
 
   * skip-grams: use a central word to predict its context word.    
   * CBOW: uses a context word to predict the central word
