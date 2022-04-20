@@ -84,7 +84,7 @@ There are reasons you might want to disable gradient tracking:
    [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/word2vec.ipynb)
 
 
-(Furthermore, in practice,[negative sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) is a necessary technique to train word2vec embedding in a large corpus).
+(Furthermore, in practice, [negative sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) is a necessary technique to train word2vec embedding in a large corpus.)
 
 
 
