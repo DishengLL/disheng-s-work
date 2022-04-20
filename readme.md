@@ -53,7 +53,7 @@ There are reasons you might want to disable gradient tracking:
 
 
 # Metamap Lite
-  [Instruction of installing and running MateMap Lite](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/Metamap%20Lite_instruction%20.docx)
+  [Instruction of installing and running MateMap Lite](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Metamap%20Lite_instruction%20.docx)
 
 
 
