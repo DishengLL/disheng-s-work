@@ -65,7 +65,7 @@ There are reasons you might want to disable gradient tracking:
    * CBOW (Continuous Bag of Words)      
 
 * ### theory
-  [PPT of Professor He](/recourse/word2vec.pdf)
+  [PPT of Professor He](/recourse/word2vec.pdf)        
   Word2vec use contextualized information to generate word embedding for each word.
 
   Intuitively, the meaning of one word is defined by its surrounding context. From this understanding, Word2vec is a supervised method which establishes a neural structure, to do a prediction task.
