@@ -72,9 +72,10 @@ There are reasons you might want to disable gradient tracking:
   * skip-grams: use a central word to predict its context word.    
   * CBOW: uses a context word to predict the central word
 
-  ![word2vec](images/word2vec.png)
 
-  
+
+  <img src="images/word2vec.png" width="700" >
+
 
 
 
