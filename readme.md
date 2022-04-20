@@ -61,10 +61,22 @@ There are reasons you might want to disable gradient tracking:
 
 ## Word2vec (negative sampling) ---**2013**
   supervised method:   
-   *  skip-grams      
+   * Skip-grams      
    * CBOW (Continuous Bag of Words)      
 
 * ### theory
+  Word2vec use contextualized information to generate word embedding for each word.
+
+  Intuitively, the meaning of one word is defined by its surrounding context. From this understanding, Word2vec is a supervised method which establishes a neural structure, to do a prediction task.
+
+  * skip-grams: use a central word to predict its context word.    
+  * CBOW: uses a context word to predict the central word
+
+  ![word2vec](images/word2vec.png)
+
+  
+
+
 
 * ### code
    [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/word2vec.ipynb)
