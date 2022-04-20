@@ -65,7 +65,7 @@ There are reasons you might want to disable gradient tracking:
    * CBOW (Continuous Bag of Words)      
 
 * ### theory
-  [PPT of Professor He](/recourse/word2vec.pdf) 
+  [PPT of Professor He](/recourse/word2vec.pdf)      
   [Word2vec Tutorial online](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)    
   Word2vec use contextualized information to generate word embedding for each word.
 
