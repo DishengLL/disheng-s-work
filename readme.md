@@ -3,7 +3,7 @@
 ---------
 # Pytorch Basics 
 
-[Key note of neural nerwork  in Pytorch](https://github.com/DishengLL/disheng-s_work/blob/main/liu_disheng_working/weekly%20report/week1/pytorch%20in%20TL.key)
+[Key note of neural nerwork  in Pytorch](resource/pytorch%20in%20TL.key)
 
 
 
@@ -53,7 +53,7 @@ There are reasons you might want to disable gradient tracking:
 
 
 # Metamap Lite
-  [Instruction of installing and running MateMap Lite](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Metamap%20Lite_instruction%20.docx)
+  [Instruction of installing and running MateMap Lite](liu_disheng_working/Metamap%20Lite_instruction%20.docx)
 
 
 
@@ -65,7 +65,7 @@ There are reasons you might want to disable gradient tracking:
    * CBOW (Continuous Bag of Words)      
 
 * ### theory
-  [PPT of Professor He](/recourse/word2vec.pdf)      
+  [PPT of Professor He](resource/word2vec.pdf)  
   [Word2vec Tutorial online](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) 
 
   Word2vec use contextualized information to generate word embedding for each word.      
@@ -82,8 +82,7 @@ There are reasons you might want to disable gradient tracking:
 
 
 * ### code
-   [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/word2vec.ipynb)
-
+   [**implement**](liu_disheng_working/Disheng_code/word2vec.ipynb)
 
 (Furthermore, in practice, [negative sampling](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/) is a necessary technique to train word2vec embedding in a large corpus, which is not be included in my implementation.  
 The authors of word2vec published this method in their following [paper](http://arxiv.org/pdf/1310.4546.pdf))
@@ -96,16 +95,19 @@ The authors of word2vec published this method in their following [paper](http://
 
 * ### theory
   [Paper](https://arxiv.org/pdf/1810.04805.pdf)    
-  [PPT of Hung-yi Lee](recourse/BERT%20(v3).pdf)       
+  [PPT of Hung-yi Lee -- Bert](resource/BERT%20(v3).pdf)       
+  
+  [PPT of Hung-yi Lee -- self-attention](resource/self_v7.pdf)
+
   [Youtube--embedding](https://www.youtube.com/watch?v=UYPa347-DdE)     
   [Youtube--self attention](https://www.youtube.com/watch?v=ugWDIIOHtPA)
-
   
-
+  
+  
   Actually, Bert embedding is an encoder section in  Transformer model published by Google.
-
+  
   Bert encoder model uses Attention scheme to catch the relationship among words, which allows model to consider  distant context when processing each token.
-
+  
   Overall, Bert Embedding uses pre-trained model, fed by sentence, and generates multiple hidden layers as the vector representations for each token.
 
 
@@ -121,7 +123,7 @@ The authors of word2vec published this method in their following [paper](http://
   the following code example use Base Version to extract word embedding.   
 
 
-   [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/BERT%20Word%20Embeddings.ipynb)
+   [**implement**](liu_disheng_working/Disheng_code/BERT%20Word%20Embeddings.ipynb)
 
    [**reference**](https://towardsdatascience.com/nlp-extract-contextualized-word-embeddings-from-bert-keras-tf-67ef29f60a7b)
 
@@ -173,12 +175,11 @@ so **why not use co-occurrence count (word-word matrix)  to represent the meanin
 
 * ### code
 
-  [**implement**](https://github.com/DishengLL/disheng-s-work/blob/public/liu_disheng_working/Disheng_code/GloVe.ipynb)
+  [**implement**](liu_disheng_working/Disheng_code/GloVe.ipynb)
 
 
 ## Topic model
 unsupervised method
 1. LSA(Latent semantic analysis)
 2. SVD(Singular value decomposition) 
-
 
